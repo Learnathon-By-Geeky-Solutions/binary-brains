@@ -1,10 +1,21 @@
-## 📚 Get Started with the Wiki!
-Explore our [binary-brains Wiki](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/wiki) for comprehensive documentation and resources.
+## 📚 Explore Project Resources: Wiki, DevLogs, and Trello Board
+Explore our [binary-brains Wiki](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/wiki) for comprehensive documentation, stay updated with [DevLog updates](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/tree/main/DevLog), and manage the project with our [Trello board](https://trello.com/b/67a6303580ff372f899865ae/e-commerce-system-binary-brains).
+
+
 <div align="center">
   <a href="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/wiki">
-   <img src="https://img.shields.io/badge/BinaryBrains-Wiki-007ACC?logo=github&logoColor=white&style=for-the-badge&background=000000" alt="GitHub Learnathon Wiki">
+    <img src="https://img.shields.io/badge/BinaryBrains-Wiki-007ACC?logo=github&logoColor=white&style=for-the-badge&background=000000" alt="GitHub Learnathon Wiki" style="height: 20px;">
+  </a>
+  <a href="https://trello.com/b/67a6303580ff372f899865ae/e-commerce-system-binary-brains">
+    <img src="https://img.shields.io/badge/Trello-Project%20Board-0079BF?logo=trello&logoColor=white&style=flat-square" alt="Trello Board" style="height: 20px;">
+  </a>
+  <a href="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/tree/main/DevLog">
+    <img src="https://img.shields.io/badge/DevLog-Updates-FFD700?logo=github&logoColor=white&style=flat-square" alt="Development Logs" style="height: 20px;">
   </a>
 </div>
+
+
+
 
 ## 🚀Project Status and Quality Metrics
 <div align="center">
