@@ -1,36 +1,42 @@
 ﻿@model IEnumerable<Product>
-<div class="row pb-3">
-    @foreach (var product in Model)
-    {
-        <div class="col-lg-3 col-sm-6">
-            <div class="row p-2">
-                <div class="col-12 p-1">
-                    <div class="card border-0 p-3 shadow border-top border-5 rounded">
-                        <img src="@product.ImageUrl" class="card-img-top rounded" />
-                        <div class="card-body pb-0">
-                            <div class="pl-1">
-                                <p class="card-title h5 text-dark opacity-75 text-uppercase text-center">@product.Title</p>
-                                <p class="card-title text-warning text-center">by <b>@product.Category?.Name</b></p>
-                            </div>
-                            <div class="pl-1">
-                                <p class="text-dark text-opacity-75 text-center">
-                                    @product.Price.ToString("C", new System.Globalization.CultureInfo("bn-BD"))
-                                </p>
-                            </div>
-                            <div class="pl-1">
-                                <p class="text-dark text-opacity-75 text-center">@product.Description</p>
-                            </div>
-                        </div>
-                        <div>
-                            <a asp-action="Details"
-                               asp-route-productId="@product.Id"
-                               class="btn btn-primary bg-gradient border-0 form-control">
-                                Details
-                            </a>
-                        </div>
+
+<div class="container-fluid p-0 d-flex">
+    <div class="row g-0 mx-0" style="max-width: 960px; width: 100%;">
+        @foreach (var product in Model)
+        {
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12 d-flex justify-content-center p-2">
+                <div class="card card-primary card-outline shadow rounded" style="width: 100%; max-width: 250px;">
+                    <img src="@(product.ImageUrl ?? "https://via.placeholder.com/250x150?text=Product")"
+                         class="card-img-top rounded"
+                         alt="@product.Title"
+                         style="height: 150px; object-fit: cover; margin-bottom: 0;" />
+
+                    <div class="card-body d-flex flex-column align-items-center p-1 pb-3">
+                        <h6 class="card-title text-dark mb-2 text-center"
+                            style="font-size: 1rem; text-transform: capitalize; margin-top: 0;">
+                            @product.Title
+                        </h6>
+
+                        <p class="text-muted mb-1" style="font-size: 0.8rem;">
+                            by <b>@product.Category?.Name</b>
+                        </p>
+
+                        <p class="text-dark font-weight-bold mb-1" style="font-size: 0.95rem;">
+                            @product.Price.ToString("C", new System.Globalization.CultureInfo("bn-BD"))
+                        </p>
+
+                        <p class="text-info font-italic mb-2 text-center" style="font-size: 0.8rem;">
+                            @product.Description
+                        </p>
+
+                        <a asp-action="Details" asp-route-productId="@product.Id"
+                           class="btn btn-sm btn-primary mt-auto"
+                           style="font-size: 0.85rem; max-width: 120px; padding: 0.5rem 1rem;">
+                            Details
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-    }
+        }
+    </div>
 </div>
