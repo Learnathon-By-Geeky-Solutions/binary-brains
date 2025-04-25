@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
@@ -32,21 +33,30 @@ namespace AmarTech.Domain.Entities
         public string? PaymentIntentId { get; set; }
 
         [Required]
+
+        [DisplayName("Phone No*")]
+
         public string PhoneNumber { get; set; } = null!;
 
         [Required]
+        [DisplayName("Street Address*")]
         public string StreetAddress { get; set; } = null!;
 
         [Required]
+        [DisplayName("City*")]
         public string City { get; set; } = null!;
 
         [Required]
+        [DisplayName("State*")]
         public string State { get; set; } = null!;
 
         [Required]
+        [DisplayName("Postal Code*")]
         public string PostalCode { get; set; } = null!;
 
         [Required]
+        [DisplayName("Name*")]
+
         public string Name { get; set; } = null!;
     }
 }
