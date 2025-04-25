@@ -93,14 +93,16 @@
                 <!-- Right Navbar Links -->
                 <ul class="navbar-nav ms-auto align-items-center">
                     <!-- Search Form -->
+
                     <li class="nav-item">
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Search products..." aria-label="Search" style="max-width: 200px;" />
+                        <form class="d-flex" role="search" asp-controller="Home" asp-action="Index" method="get">
+                            <input class="form-control me-2" type="search" name="query" placeholder="Search products..." aria-label="Search" style="max-width: 200px;" />
                             <button class="btn btn-outline-light" type="submit">
                                 <i class="bi bi-search"></i>
                             </button>
                         </form>
                     </li>
+
                     <!-- Fullscreen Toggle -->
                     <li class="nav-item">
                         <a class="nav-link text-light hover-light" href="#" data-lte-toggle="fullscreen">

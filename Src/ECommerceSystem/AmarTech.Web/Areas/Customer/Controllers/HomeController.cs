@@ -24,7 +24,7 @@ namespace AmarTech.Web.Areas.Customer.Controllers
             _shoppingCartService = shoppingCartService ?? throw new ArgumentNullException(nameof(shoppingCartService));
         }
 
-        public IActionResult Index(int? page)
+        public IActionResult Index(int? page,string? query)
         {
             if (!ModelState.IsValid)
             {
@@ -32,18 +32,12 @@ namespace AmarTech.Web.Areas.Customer.Controllers
             }
 
             var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
-            var productsPerPage = 12; 
-            var pageNumber = page ?? 1;
-            var productList = _productService.GetAllProducts()
-                                             .Skip((pageNumber - 1) * productsPerPage)
-                                             .Take(productsPerPage);
+            
+            var productList = _productService.SkipAndTake(page);
 
-            // Calculate total pages for pagination
-            var totalProducts = _productService.GetAllProducts().Count();
-            var totalPages = (int)Math.Ceiling(totalProducts / (double)productsPerPage);
+            var totalPages = _productService.CalculateTotalPage();
 
-            // Pass the pagination info to the view
-            ViewBag.CurrentPage = pageNumber;
+            ViewBag.CurrentPage = page??1;
             ViewBag.TotalPages = totalPages;
 
             var shoppingCartCount = _shoppingCartService.GetShoppingCartByUserId(userId ?? string.Empty)?.Count() ?? 0;

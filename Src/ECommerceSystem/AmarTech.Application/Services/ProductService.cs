@@ -121,5 +121,25 @@ namespace AmarTech.Application.Services
         {
             return _productRepository.Get(u => u.Id == id, includeProperties: "Category");
         }
+        public IEnumerable<Product> SkipAndTake(int? page) { 
+            var productsPerPage = 12;
+            var pageNumber = page ?? 1;
+        
+            return _productRepository.SkipAndTake(productsPerPage, pageNumber);
+        }
+
+        public int CalculateTotalPage()
+        {
+            // Calculate total pages for pagination
+            var totalProducts = GetAllProducts().Count();
+            var totalPages = (int)Math.Ceiling(totalProducts / (double)12);
+
+            return totalPages;
+        }
+        public void ReduceStockCount(List<ShoppingCart> cartList)
+        {
+           _productRepository.ReduceStockCount(cartList);
+            _unitOfWork.Commit();
+        }
     }
 }

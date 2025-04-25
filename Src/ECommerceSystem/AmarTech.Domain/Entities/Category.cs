@@ -7,7 +7,7 @@ namespace AmarTech.Domain.Entities
     {
         [Key]
         public int Id { get; set; }
-        [Required(ErrorMessage = "Category Must Be Required.")]
+        [Required(ErrorMessage = "Category Name Cann't be empty")]
         [DisplayName("Category Name")]
         [MaxLength(30)]
         public required string Name { get; set; }

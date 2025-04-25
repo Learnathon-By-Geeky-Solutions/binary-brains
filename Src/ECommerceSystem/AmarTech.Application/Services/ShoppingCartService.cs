@@ -144,14 +144,17 @@ namespace AmarTech.Application.Services
             return shoppingCartVM;
         }
 
-        public void RemoveShoppingCarts(OrderHeader? orderHeader)
+        public List<ShoppingCart> RemoveShoppingCarts(OrderHeader? orderHeader)
         {
             if (orderHeader != null)
             {
                 var shoppingCarts = GetShoppingCartsByUserId(orderHeader.ApplicationUserId).ToList();
                 RemoveRange(shoppingCarts);
                 _unitOfWork.Commit();
+                return shoppingCarts;
             }
+            return new List<ShoppingCart>();
+            
         }
         public void Plus(int cartId)
         {
@@ -272,7 +275,7 @@ GetShoppingCartByUserId(cartFromDb.ApplicationUserId).Count());
                 {
                     PriceData = new SessionLineItemPriceDataOptions
                     {
-                        UnitAmount = (long)(item.Price * 100),
+                        UnitAmount = (long)(0 * 100),
                         Currency = "usd",
                         ProductData = new SessionLineItemPriceDataProductDataOptions
                         {

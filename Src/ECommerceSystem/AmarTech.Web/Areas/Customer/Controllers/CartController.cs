@@ -19,14 +19,15 @@ namespace AmarTech.Web.Areas.Customer.Controllers
         private readonly IApplicationUserService _applicationUserService;
         private readonly IOrderHeaderService _orderHeaderService;
         private readonly IOrderDetailService _orderDetailService;
+        private readonly IProductService _productService;
         private const string HeaderLocation = "Location";
-        public CartController(IShoppingCartService shoppingCartService, IOrderHeaderService orderHeaderService, IApplicationUserService applicationUserService, IOrderDetailService orderDetailService)
+        public CartController(IShoppingCartService shoppingCartService, IOrderHeaderService orderHeaderService, IApplicationUserService applicationUserService, IOrderDetailService orderDetailService,IProductService productService)
         {
             _shoppingCartService = shoppingCartService;
             _orderHeaderService = orderHeaderService;
             _applicationUserService = applicationUserService;
             _orderDetailService = orderDetailService;
-
+            _productService = productService;
         }
 
         public IActionResult Index()
@@ -148,7 +149,11 @@ namespace AmarTech.Web.Areas.Customer.Controllers
 
             var orderHeader = _orderHeaderService.OrderConfirmation(id);
 
-            _shoppingCartService.RemoveShoppingCarts(orderHeader);
+            
+
+            var cartList=_shoppingCartService.RemoveShoppingCarts(orderHeader);
+            _productService.ReduceStockCount(cartList);
+
 
             return View(id);
         }

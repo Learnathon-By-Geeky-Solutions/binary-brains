@@ -23,7 +23,7 @@ namespace AmarTech.Application.Services.IServices
 
         ShoppingCartVM GetShoppingCartVM(string? userId);
 
-        void RemoveShoppingCarts(OrderHeader? orderHeader);
+        List<ShoppingCart> RemoveShoppingCarts(OrderHeader? orderHeader);
 
         void Plus(int cartId);
 

@@ -17,5 +17,9 @@ namespace AmarTech.Application.Services.IServices
 
         void EditPathOfProduct(Product product, IFormFile? file,string wwwRootPath);
         void CreatePathOfProduct(Product product, IFormFile? file, string wwwRootPath);
+
+        IEnumerable<Product> SkipAndTake(int ? page);
+        int CalculateTotalPage();
+        void ReduceStockCount(List<ShoppingCart> cartList);
     }
 }
