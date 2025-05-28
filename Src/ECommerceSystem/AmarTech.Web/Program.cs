@@ -44,6 +44,7 @@ builder.Services.AddAuthentication().AddFacebook(options =>
     options.AppId = "";
     options.AppSecret = "";
 
+
 });
 
 // Register IHttpContextAccessor for session access in services

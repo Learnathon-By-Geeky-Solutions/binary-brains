@@ -66,24 +66,16 @@ namespace AmarTech.Infrastructure.Repository
 
         public int GetAllProductsCount(string? searchQuery = null)
         {
-            if (searchQuery == null)
-            {
-                return _db.Products.Count();
-            }
-            else
-            {
-                IQueryable<Product> query = _db.Products;
-                if (!string.IsNullOrEmpty(searchQuery))
-                {
-                    searchQuery = searchQuery.ToLower();
-                    query = query.Where(u =>
-    u.Title.Contains(searchQuery, StringComparison.OrdinalIgnoreCase) ||
-    u.Description.Contains(searchQuery, StringComparison.OrdinalIgnoreCase));
+            IQueryable<Product> query = _db.Products;
 
-
-                }
-                return query.Count();
+            if (!string.IsNullOrEmpty(searchQuery))
+            {
+                searchQuery = searchQuery.ToLower();
+                query = query.Where(p => (p.Title != null && p.Title.ToLower().Contains(searchQuery)) ||
+                                         (p.Description != null && p.Description.ToLower().Contains(searchQuery)));
             }
+
+            return query.Count();
         }
     }
 }
