@@ -206,7 +206,11 @@ Src/
 ## 🧠 Architectural Overview
 
 ### 🧱 Code Structure
+<div align="center">
+
 ![Clean Architecture Diagram](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/CleanArchitecture.jpg?raw=true)
+
+</div>
 
 **Clean Architecture** with layers: `Domain`, `Application`, `Infrastructure`, `Web`, and `Test`.
 
@@ -218,17 +222,68 @@ Src/
   - **Service Layer Abstraction**
   - **Unit of Work** for database consistency
 
-## Entity-Relationship Diagram (ERD)
+### 🏗️ **System Architecture Diagram** 
+<div align="center">
+
+![System Architecture](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/main/docs/Others%20Images/systemDesign.png?raw=true)
+
+</div>
+
+---
+
+### 🎯 **Use Case Diagram**  
+<div align="center">
+
+![Use Case Diagram](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/main/docs/Others%20Images/Use%20Case%20Diagram.drawio.png?raw=true)
+
+</div>
+
+---
+
+### 🗃️ **Entity-Relationship Diagram (ERD)**  
+<div align="center">
+
 ![Database Image](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/develop/docs/Others%20Images/Database.jpg?raw=true)
+
+</div>
+
+## Activity Diagram
+
+<div align="center">
+
+![](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/main/docs/Others%20Images/Activity_diagram.png?raw=true)
+</div>
 
 ## 📸 Project Screenshots
 
-| ![Image 1](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/1.png?raw=true) | ![Image 2](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/2.png?raw=true) | ![Image 4](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/4.png?raw=true) |
-|:--:|:--:|:--:|
-| ![Image 5](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/5.png?raw=true) | ![Image 6](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/6.png?raw=true) | ![Image 7](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/7.png?raw=true) |
-| ![Image 8](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/8.png?raw=true) | ![Image 9](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/9.png?raw=true) | ![Image 10](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/10.png?raw=true) |
-| ![Image 11](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/11.png?raw=true) | ![Image 12](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/12.png?raw=true) | ![Image 13](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/13.png?raw=true) |
-| ![Image 14](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/14.png?raw=true) | ![Image 15](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/15.png?raw=true) | ![Image 16](https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/16.png?raw=true) |
+<table>
+  <tr>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/1.png?raw=true" width="300"/></td>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/2.png?raw=true" width="300"/></td>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/4.png?raw=true" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/5.png?raw=true" width="300"/></td>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/6.png?raw=true" width="300"/></td>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/7.png?raw=true" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/8.png?raw=true" width="300"/></td>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/9.png?raw=true" width="300"/></td>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/10.png?raw=true" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/11.png?raw=true" width="300"/></td>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/12.png?raw=true" width="300"/></td>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/13.png?raw=true" width="300"/></td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/14.png?raw=true" width="300"/></td>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/15.png?raw=true" width="300"/></td>
+    <td><img src="https://github.com/Learnathon-By-Geeky-Solutions/binary-brains/blob/update_README-File/Src/ECommerceSystem/AmarTech.Web/wwwroot/images/Project%20Image/16.png?raw=true" width="300"/></td>
+  </tr>
+</table>
+
 
 
 ## 📦 Resources
