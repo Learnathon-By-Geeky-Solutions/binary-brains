@@ -69,7 +69,7 @@ Dive into our [Wiki](https://github.com/Learnathon-By-Geeky-Solutions/binary-bra
 | ----------- | -------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- | --------------------------------------------- |
 | 🎯 Role     | Mentor                                       | Team Leader                                         | Member                                         | Member                                        |
 | 💻 GitHub   | [mashrief](https://github.com/mashrief)      | [Md-EmranHossen](https://github.com/Md-EmranHossen) | [md-rifatul](https://github.com/md-rifatul)    | [FI-Pranto](https://github.com/FI-Pranto)     |
-| 🔗 LinkedIn | [LinkedIn](https://linkedin.com/in/mashrief) | [LinkedIn](https://linkedin.com/in/md-emranhossen)  | [LinkedIn](https://linkedin.com/in/md-rifatul) | [LinkedIn](https://linkedin.com/in/fi-pranto) |
+| 🔗 LinkedIn | [LinkedIn](https://linkedin.com/in/mashrief) | [LinkedIn](https://linkedin.com/in/emranhossen)  | [LinkedIn](https://linkedin.com/in/md-rifatul) | [LinkedIn](https://linkedin.com/in/fi-pranto) |
 
 </div>
 
