@@ -5,10 +5,10 @@ AmarTech is a robust E-Commerce Web Application built with ASP.NET Core MVC, sho
 # 🌐 Live Demo
 
 <div align="center">
-  
-🔗 Click here to view the live site: [https://amartech.bsite.net/](https://amartech.bsite.net/)
 
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blue?style=for-the-badge)](https://amartech.bsite.net/)
+🔗 Click here to view the live site: [https://amartechecommerc-001-site1.ktempurl.com/](http://amartechecommerc-001-site1.ktempurl.com/)
+
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit-blue?style=for-the-badge)](http://amartechecommerc-001-site1.ktempurl.com/)
 
 </div>
 
@@ -61,17 +61,24 @@ Dive into our [Wiki](https://github.com/Learnathon-By-Geeky-Solutions/binary-bra
   </table>
 </div>
 
-## 🤝 Team Information: Binary Brains
 
+## 🌟 Binary Brains Team
 <div align="center">
 
-| 👤 Name     | Mashrief Bin Zulfiquer                       | Md Emran Hossen                                     | Md Rifatul                                     | FI Pranto                                     |
-| ----------- | -------------------------------------------- | --------------------------------------------------- | ---------------------------------------------- | --------------------------------------------- |
-| 🎯 Role     | Mentor                                       | Team Leader                                         | Member                                         | Member                                        |
-| 💻 GitHub   | [mashrief](https://github.com/mashrief)      | [Md-EmranHossen](https://github.com/Md-EmranHossen) | [md-rifatul](https://github.com/md-rifatul)    | [FI-Pranto](https://github.com/FI-Pranto)     |
-| 🔗 LinkedIn | [LinkedIn](https://linkedin.com/in/mashrief) | [LinkedIn](https://linkedin.com/in/md-emranhossen)  | [LinkedIn](https://linkedin.com/in/md-rifatul) | [LinkedIn](https://linkedin.com/in/fi-pranto) |
+| 👤 Name                     | 🎯 Role        | 📂 GitHub                                     | 🔗 LinkedIn                                     |
+|-----------------------------|----------------|-----------------------------------------------|-------------------------------------------------|
+| Md Emran Hossen             | Team Leader    | [Md-EmranHossen](https://github.com/Md-EmranHossen) | [LinkedIn](https://linkedin.com/in/emranhossen) |
+| Md Rifatul                  | Member         | [md-rifatul](https://github.com/md-rifatul)   | [LinkedIn](https://linkedin.com/in/md-rifatul)  |
+| FI Pranto                   | Member         | [FI-Pranto](https://github.com/FI-Pranto)     | [LinkedIn](https://linkedin.com/in/fi-pranto)   |
 
 </div>
+
+
+## 🧑‍🏫 Mentor
+### Mashrief Bin Zulfiquer
+📂 **GitHub**: [mashrief](https://github.com/mashrief)
+🔗 **LinkedIn**: [LinkedIn](https://linkedin.com/in/nabilmashrief)  
+
 
 ## 📅 Learning & Project Planning
 
